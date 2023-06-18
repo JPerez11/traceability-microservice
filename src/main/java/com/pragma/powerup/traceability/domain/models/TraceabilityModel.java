@@ -2,7 +2,7 @@ package com.pragma.powerup.traceability.domain.models;
 
 public class TraceabilityModel {
 
-    private Long id;
+    private String id;
     private Long orderId;
     private Long customerId;
     private String customerEmail;
@@ -13,9 +13,8 @@ public class TraceabilityModel {
 
     public TraceabilityModel() {}
 
-    public TraceabilityModel(Long id, Long orderId, Long customerId, String customerEmail,
+    public TraceabilityModel(Long orderId, Long customerId, String customerEmail,
                              String previousStatus, String newStatus, Long employeeId, String employeeEmail) {
-        this.id = id;
         this.orderId = orderId;
         this.customerId = customerId;
         this.customerEmail = customerEmail;
@@ -25,11 +24,11 @@ public class TraceabilityModel {
         this.employeeEmail = employeeEmail;
     }
 
-    public Long getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 

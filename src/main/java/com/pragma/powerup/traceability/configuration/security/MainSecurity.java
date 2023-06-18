@@ -31,7 +31,7 @@ public class MainSecurity {
                 .authorizeHttpRequests(auth ->
                         auth
                                 .requestMatchers("/auth/login", "/swagger-ui.html", "/swagger-ui/**",
-                                        "/v3/api-docs/**", "/actuator/health")
+                                        "/v3/api-docs/**", "/traceability/**", "/actuator/health")
                                 .permitAll()
                                 .anyRequest()
                                 .authenticated()

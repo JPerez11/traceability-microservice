@@ -3,11 +3,11 @@ spring:
     name: traceability-microservice
   data:
     mongodb:
-      uri: mongodb+srv://jperez:jperez@cluster0.ldixbn5.mongodb.net/?retryWrites=true&w=majority
-#
-#  cloud:
-#    config:
-#      uri: http://localhost:8081
-#      username: root
-#      password: s3cr3t
-#      profile: dev
+      uri: mongodb+srv://jperez:jperez@cluster0.ldixbn5.mongodb.net/food_court?retryWrites=true&w=majority
+
+  cloud:
+    config:
+      uri: http://localhost:8081
+      username: root
+      password: s3cr3t
+      profile: dev
