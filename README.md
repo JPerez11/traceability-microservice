@@ -1,9 +1,12 @@
-<br />
-<div align="center">
-<h3 align="center">PRAGMA POWER-UP</h3>
-  <p align="center">
+<br>
+<div>
+<h3 style="text-align: center">PRAGMA POWER-UP</h3>
+  <p style="text-align: center">
     In this challenge you are going to design the backend of a system that centralizes the services and orders of a restaurant chain that has different branches in the city.
   </p>
+<p style="text-align: center">
+   This microservice is responsible for recording the traceability of each transaction of customer orders.
+</p>
 </div>
 
 ### Built With
@@ -23,7 +26,6 @@ To get a local copy up and running follow these steps.
 
 * JDK 17 [https://jdk.java.net/java-se-ri/17](https://jdk.java.net/java-se-ri/17)
 * Gradle [https://gradle.org/install/](https://gradle.org/install/)
-* MySQL [https://dev.mysql.com/downloads/installer/](https://dev.mysql.com/downloads/installer/)
 
 ### Recommended Tools
 * IntelliJ Community [https://www.jetbrains.com/idea/download/](https://www.jetbrains.com/idea/download/)
@@ -32,28 +34,27 @@ To get a local copy up and running follow these steps.
 ### Installation
 
 1. Clone the repository
-2. Change directory
-   ```sh
-   cd power-up-arquetipo-v3
+   <br>
+   <b>Steps:</b>
+   <br>
+   1. Press the green ``code`` button and press the copy button to copy the link
+      <br><br>
+      ![clone-repository-food-court.png](src/main/resources/vendor/img/clone-repository-traceability.png)
+      <br><br>
+   2. Open a terminal like Git Bash and type the command ``git clone`` + the repository link copied earlier
+   ```shell
+   git clone https://github.com/JPerez11/traceability-microservice
    ```
-3. Create a new database in MySQL called powerup
-4. Update the database connection settings
-   ```yml
-   # src/main/resources/application-dev.yml
-   spring:
-      datasource:
-          url: jdbc:mysql://localhost/powerup
-          username: root
-          password: <your-password>
+   3. Change directory
+   ```shell
+   cd traceability-microservice
    ```
-5. After the tables are created execute src/main/resources/data.sql content to populate the database
-6. Open Swagger UI and search the /auth/login endpoint and login with userDni: 123, password: 1234
 
 <!-- USAGE -->
 ## Usage
 
-1. Right-click the class PowerUpApplication and choose Run
-2. Open [http://localhost:8090/swagger-ui/index.html](http://localhost:8090/swagger-ui/index.html) in your web browser
+1. Right-click the class TraceabilityMicroserviceApplication and choose Run
+2. Open [http://localhost:8093/swagger-ui/index.html](http://localhost:8093/swagger-ui/index.html) in your web browser
 
 <!-- ROADMAP -->
 ## Tests
