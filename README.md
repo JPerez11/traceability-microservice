@@ -14,7 +14,8 @@
 * ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 * ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 * ![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white)
-* ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+* ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+* ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
 
 
 <!-- GETTING STARTED -->
@@ -32,6 +33,12 @@ To get a local copy up and running follow these steps.
 * Postman [https://www.postman.com/downloads/](https://www.postman.com/downloads/)
 
 ### Installation
+
+###### Recommendation: Watch the following video ######
+![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
+<br>LINKS:
+<br> https://youtu.be/xIQZolmvbtM - Project explained
+<br> https://youtu.be/PLQHsIf7g5g - Additional project settings
 
 1. Clone the repository
    <br>
